@@ -11,11 +11,13 @@ import { RightBarComponent } from './right-bar/right-bar.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { StructureComponent } from './left-bar/structure/structure.component';
 import { StatementComponent } from './left-bar/statement/statement.component';
+import { CalendarComponent } from './left-bar/calendar/calendar.component';
+import { ConsultantsComponent } from './left-bar/consultants/consultants.component';
 
 
 
 @NgModule({
-  declarations: [MainComponent, HeaderComponent, FooterComponent, LeftBarComponent, RightBarComponent, MainContentComponent, StructureComponent, StatementComponent],
+  declarations: [MainComponent, HeaderComponent, FooterComponent, LeftBarComponent, RightBarComponent, MainContentComponent, StructureComponent, StatementComponent, CalendarComponent, ConsultantsComponent],
   imports: [
     CommonModule,
     MainRoutingModule

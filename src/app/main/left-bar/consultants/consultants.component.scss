@@ -1,0 +1,103 @@
+.const_wrap.preview {
+  display: flex;
+  padding: 15px;
+  .ava {
+    width: 150px;
+    height: auto;
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  }
+  .prev_wrap {
+    width: 300px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .ct_name {
+      font-size: 21px;
+    }
+    .c_description {
+      font-size: 16px;
+    }
+  }
+}
+.consultants-main_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.c_mail {
+  display: flex;
+}
+.const_wrap.full-info {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f6f3f3;
+  border-radius: 15px;
+  border: 2px solid gainsboro;
+  box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.79);
+  padding: 15px;
+  box-sizing: border-box;
+}
+.template-text_wrap {
+  position: relative;
+}
+.const_wrap.full-info.show {
+  display: block;
+}
+.f_info {
+  cursor: pointer;
+  font-size: 16px;
+  color: rgb(9, 9, 79);
+}
+.close_x {
+  position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+    right: 0;
+    top: 5px;
+    width: 21px;
+    height: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.const_wrap.full-info {
+  .ct_name {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .main-info_wrap {
+  }
+  .ava {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  }
+}
+.cons_description {
+  font-size: 18px;
+  text-indent: 1em;
+}
+.contact {
+  font-size: 16px;
+  color: darkblue;
+  font-family: cursive;
+}
+.contacts_wrap {
+  margin-top: 15px;
+}
